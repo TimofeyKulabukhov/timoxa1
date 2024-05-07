@@ -1,0 +1,58 @@
+footer {
+    color: #fff;
+    padding: 0px;
+    margin:0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    font-weight: 200;
+    font-size:12px;
+    font-family: "Inter", sans-serif;
+    background-image: url(/static/fone\ 4.jpg);
+    border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  }
+  
+  .footer-logo {
+    margin-left: 0%;
+    position:relative; right:100px ;
+  
+  }
+  .footer-logo,
+  .footer-social {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-information {
+    text-align: left;
+    font-size: small ;
+  }
+  
+  .footer-social {
+    margin-right: 260px;
+  }
+  .footer-social .social-icons {
+    display: flex;
+    align-items: center;
+  }
+  .social-icons {
+    margin-right: 100px;
+  }
+  
+  .social-icons .forum {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+  .link {
+    color: white;
+  }
+  .icon_logo{
+    width: 50px;
+  }
+  
+  

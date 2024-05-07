@@ -1,0 +1,76 @@
+@import url("https://fonts.cdnfonts.com/css/Inter");
+
+main {
+    padding: 20px;
+    min-height: calc(100vh - 160px);
+  }
+  
+  body {
+    background-image: url(/static/fone3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .catalog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: auto; 
+  }
+  
+  .product-card {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product-title {
+    color: #333;
+    font-size: 18px;
+    margin: 12px 0;
+  }
+  
+  .product-price {
+    color: #f09;
+    font-size: 16px;
+    margin: 4px 0;
+  }
+  
+  .add-to-cart {
+    background-color: #f09;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #c3075f;
+  }
+  
+  @media (max-width: 992px) {
+    .catalog {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .catalog {
+      grid-template-columns: 1fr; 
+    }
+  }

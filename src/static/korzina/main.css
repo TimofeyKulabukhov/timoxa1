@@ -1,0 +1,114 @@
+@import url("https://fonts.cdnfonts.com/css/Inter");
+
+main {
+    padding: 20px;
+    min-height: calc(100vh - 160px);
+  }
+  
+  body {
+    background-image: url(/static/fone3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    text-align: center;
+    color:white;
+  }
+  
+  .cart {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .cart-header, .cart-item, .cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cart-item-info{
+    display:flex;
+    align-items: center;
+  }
+  .cart-header {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+  .cart-item-price{
+    margin-right:220px;
+  }
+  .cart-item-title{
+    margin-right:200px;
+  }
+  .item-quantity{
+    margin-right:80px;
+  }
+  .cart-item {
+    margin: 20px 0;
+  }
+  
+  .item-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-image {
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  .cart-item-image {
+    max-width: 300px; /* или любой другой размер, который тебе подходит */
+   
+  }
+  .quantity-minus, .quantity-plus, .item-remove, .btn-update, .btn-checkout {
+    background-color: #f09;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .quantity-input {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50px;
+  }
+  
+  .cart-total {
+    font-size: 1.2em;
+  }
+  
+  .total-price,.cart-item-price {
+    color: #f09;
+  }
+
+  .btn-checkout {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    background-color: #781c42;
+  }
+  
+  .item-remove {
+    font-size: 1.2em;
+  }
+  @media (max-width: 768px) {
+    .cart {
+      width: 95%;
+    }
+  }
+  

@@ -1,0 +1,61 @@
+.head_content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.information p{
+    margin-left:40px;
+}
+.logo{
+    margin-left:120px;
+}
+.head_content a ,p{
+    font-size:36px;
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  .head_content a{
+    margin-right:150px;
+  }
+.header {
+    color: white;
+
+
+
+}
+.addtokorz {
+    padding: 7px;
+    border-radius: 7px;
+    color: white;
+    background-color: #781c42;
+    text-decoration: none;
+    width: 300px;
+    height: 70px;
+    font-family:Montserrat;
+}
+.bd {
+    background-image: url(/static/fone\ 4.jpg);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+        
+
+    
+}
+.foto {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    
+}
+.bdshka {
+    color: white;
+    font-family:Montserrat;
+}

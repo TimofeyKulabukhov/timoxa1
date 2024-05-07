@@ -1,0 +1,11 @@
+#price {
+    text-decoration-line: underline;
+    background-color: blue;
+}
+body {
+    background-color: #e5e5e5;
+}
+.profile-photo {
+  width: 150px;
+  height: 150px;
+}

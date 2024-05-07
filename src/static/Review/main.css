@@ -1,0 +1,44 @@
+.h1 {
+    text-align: center;
+    text-decoration-line: underline;
+}
+.line {
+    color: white;
+}
+.container {   width: 75%;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 5px;
+    padding: 16px; 
+    margin: 16px auto; 
+  }
+  .container img {
+    float: left; 
+    margin-right: 20px; 
+    border-radius: 50%; 
+    width: 90px;
+  }
+  
+  .container span {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  .rating-mini {
+	display: inline-block;
+	font-size: 0;
+}
+.rating-mini {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: gold;
+}
+.rating-mini > span:before {
+	content: '★';
+}
+.rating-mini > span.active {
+	color: gold;
+}
+.revv {
+  font-size: small;
+}
